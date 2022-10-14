@@ -1,0 +1,6 @@
+print('Введите a')
+a = float(input())
+print('Введите b')
+b = float(input())
+print(a, b)
+print(a, ' + ', b, ' = ', a + b)
