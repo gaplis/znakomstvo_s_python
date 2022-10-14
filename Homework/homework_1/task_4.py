@@ -10,7 +10,7 @@ if x > 0 and x < 5:
         print("x < 0, y > 0")
     elif x == 3:
         print("x < 0, y < 0")
-    elif x == 4:
+    else:
         print("x > 0, y < 0")
 else:
     print("Такой четверти нет")
