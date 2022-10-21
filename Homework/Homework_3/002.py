@@ -15,8 +15,8 @@ def power_num(lst):
         size = (len(lst) + 1) / 2
 
     for i in range(int(size)):
-        result = lst[i] * lst[-i - 1]
-        new_lst.append(result)
+        res = lst[i] * lst[-i - 1]
+        new_lst.append(res)
     return new_lst
 
 print(lst1, '->', power_num(lst1))
