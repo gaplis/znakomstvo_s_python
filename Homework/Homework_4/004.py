@@ -23,6 +23,6 @@ if c:
 res_line = ' + '.join(res) + ' = 0'
 
 with open('file004.txt', 'w') as file:
-    file.write(res_line + '\n')
+    file.write(res_line)
 
 print(res_line)
